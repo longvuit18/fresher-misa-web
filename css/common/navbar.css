@@ -1,0 +1,65 @@
+.navbar {
+    background-color: #fff;
+    float: left;
+    width: 220px;
+    height: 100vh;
+    border-right: 1px solid #E5E5E5;
+}
+
+
+.navbar .logo-box, .navbar .logo-site {
+    display: flex;
+    width: 100%;
+    height: 60px;
+   
+}
+
+.navbar .logo-box {
+    padding-top: 12px;
+    padding-left: 16px;
+
+}
+
+.navbar .logo-box .toogler-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url("../../content/icon/toggle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+
+.navbar .logo-box .logo-image {
+    height: 24px;
+    background-image: url('https://amis.misa.vn/sites/amis/images/pages/amis-social-insurance/img-logo.svg');
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.navbar .navbar-content {
+    width: 100%;
+}
+.navbar .navbar-content .nav-item {
+    display: flex;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 16px;
+}
+
+.navbar .navbar-content .nav-item:hover {
+    background-color: #e5e5e5;
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar .navbar-content .nav-icon {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    align-self: center;
+    margin-right: 10px;
+}

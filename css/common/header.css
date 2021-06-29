@@ -1,0 +1,52 @@
+.header {
+    background-color: #fff;
+    float: right;
+    width: calc(100% - 221px);
+    height: 60px;
+    border-bottom: 1px solid #E5E5E5;
+    position: relative;
+}
+
+.select-restaurant {
+    height: 100%;
+    padding-left: 24px;
+    display: flex;
+}
+
+.select-restaurant select {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+.header-account {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    right: 16px;
+    top: 0;
+    height: 100%;
+    width: 200px;
+}
+
+.header-account .account-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #E9EBEE;
+}
+
+.header-account .account-name {
+    font-weight: bold;
+    margin: 0px 16px 0px 16px;
+}
+.header-account .account-more {
+    background-image: url("../../content/icon/three-dot.png");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
