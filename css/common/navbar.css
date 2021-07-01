@@ -6,6 +6,9 @@
     border-right: 1px solid #E5E5E5;
 }
 
+.navbar .thumb-navbar-content {
+    width: 44px;
+}
 
 .navbar .logo-box, .navbar .logo-site {
     display: flex;
@@ -27,6 +30,7 @@
     background-image: url("../../content/img/toggle.png");
     background-size: contain;
     background-repeat: no-repeat;
+    cursor: pointer;
 
 
 }
@@ -43,20 +47,20 @@
 .navbar .navbar-content {
     width: 100%;
 }
-.navbar .navbar-content .nav-item {
+.navbar  .nav-item {
     display: flex;
     height: 44px;
     line-height: 44px;
     padding-left: 16px;
 }
 
-.navbar .navbar-content .nav-item:hover {
+.navbar .nav-item:hover {
     background-color: #e5e5e5;
     color: #000;
     cursor: pointer;
 }
 
-.navbar .navbar-content .nav-icon {
+.navbar  .nav-icon {
     width: 25px;
     height: 25px;
     align-self: center;
