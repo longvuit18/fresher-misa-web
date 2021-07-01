@@ -24,7 +24,7 @@
     width: 24px;
     height: 24px;
     margin-right: 10px;
-    background-image: url("../../content/icon/toggle.png");
+    background-image: url("../../content/img/toggle.png");
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -33,7 +33,7 @@
 
 .navbar .logo-box .logo-image {
     height: 24px;
-    background-image: url('https://amis.misa.vn/sites/amis/images/pages/amis-social-insurance/img-logo.svg');
+    background-image: url("../../content/img/cukcuk-logo.png");
     background-size: contain;
     width: 100%;
     background-repeat: no-repeat;
@@ -57,9 +57,8 @@
 }
 
 .navbar .navbar-content .nav-icon {
-    width: 20px;
-    height: 20px;
-    border: 1px solid #000;
+    width: 25px;
+    height: 25px;
     align-self: center;
     margin-right: 10px;
 }
