@@ -22,19 +22,46 @@ $(document).ready(function () {
         $(".grid table tbody").html(fakeData);
     }, 1000);
 
+    /**
+     * ấn vào toggle để ẩn và hiện navbar
+     */
     $(".navbar .toogler-icon").click(function (e) {
         e.preventDefault();
-        $(".navbar-content").hide();
-        $(".thumb-navbar-content").show("slow");
-        $(".content").animate(
-            {
-                left: "45px",
-                width:"100%",
-            },
-            1000,
-            () => {
-                $(".content").css("width","calc(100% - 45px)")
-            }
-        )
+        if ($(this).hasClass("thumb-navbar-active")) {
+            $(".navbar-content").show();
+            $(".thumb-navbar-content").css("display", "none");
+            $(this).removeClass("thumb-navbar-active");
+            const newWidth = $(".content").width();
+            $(".content").animate(
+                {
+                    left: "221px",
+                },
+                500,
+                () => {
+                    $(".content").css("width", "calc(100% - 221px)")
+                }
+            )
+        } else {
+            $(this).toggleClass("thumb-navbar-active");
+            $(".navbar-content").css("display", "none");
+            $(".thumb-navbar-content").show();
+            
+            $(".content").animate(
+                {
+                    left: "52px",
+                    width: "100%",
+                },
+                500,
+                () => {
+                    $(".content").css("width", "calc(100% - 52px)")
+                }
+            )
+        }
     });
+
+    $(".thumb-navbar-content .nav-item .nav-icon").each(function (index, element) {
+        
+        
+    });
+
 });

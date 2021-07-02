@@ -1,8 +1,19 @@
+@import url("../common/form.css");
+@import url("../common/layout.css");
+@import url("../common/table.css");
+@import url("../common/button.css");
+
 body {
     margin: 0;
     font-family: "GoogleSans-Regular";
     font-size: 13px;
     background-color: #E9EBEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p {

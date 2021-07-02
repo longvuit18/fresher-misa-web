@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/employee-details/content.css">
+    <link rel="stylesheet" href="../css/common/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-title">Thông tin nhân viên</div>
+        <div class="row">
+            <div class="col-3 content-image">
+                <div class="avatar-image">
+                    <img src="../content/img/default-avatar.jpg" width="65%" height="auto" alt="default-avatar">
+                </div>
+                <div class="avatar-subtext">
+                    (Vui lòng chọn ảnh có định dạng <br /> .jpg .jpeg, .png, .gift)
+                </div>
+            </div>
+            <div class="col-9 content-details">
+                <div class="common-info-title">
+                    <div>B. Thông tin chung:</div>
+                    <div class="border"></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 details-info">
+                        <div class="form-item">
+                            <label>Mã nhân viên (<span style="color: red">*</span>)</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-item">
+                            <label for="DateOfBirth">Ngày sinh</label>
+                            <input type="date" id="DateOfBirth">
+                        </div>
+                        <div class="form-item">
+                            <label>Số CMND/ Căn cước (<span style="color: red">*</span>)</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-item">
+                            <label>Nơi cấp</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-item">
+                            <label>Email (<span style="color: red">*</span>)</label>
+                            <input type="email">
+                        </div>
+                    </div>
+                    <div class="col-6 details-info">
+                        <div class="form-item">
+                            <label>Họ và tên (<span style="color: red">*</span>)</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-item">
+                            <label>Giới tính</label>
+                            <select name="" id="">
+                                <option value="female">Nam</option>
+                                <option value="male">Nũ</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label for="">Ngày cấp</label>
+                            <input type="date" >
+                        </div>
+                        <div style="height: 77px;"></div>
+                        <div class="form-item">
+                            <label>Số điện thoại (<span style="color: red">*</span>)</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="common-info-title">
+                    <div>A. Thông tin công việc:</div>
+                    <div class="border"></div>
+                </div>
+                <div class="row">
+                    <div class="col-6 details-info">
+                        <div class="form-item">
+                            <label>Vị trí (<span style="color: red">*</span>)</label>
+                            <select name="" id="">
+                                <option >Giám đốc</option>
+                                <option >Chủ tịch</option>
+                                <option >Trưởng phòng</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label>Mã số thuế nhân viên</label>
+                            <input type="date" >
+                        </div>
+                        <div class="form-item">
+                            <label>Ngày gia nhập công ti (<span style="color: red">*</span>)</label>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="col-6 details-info">
+                        <div class="form-item">
+                            <label>Vị trí (<span style="color: red">*</span>)</label>
+                            <select name="" id="">
+                                <option value="female">Phòng nhân sự</option>
+                                <option value="male"> Phòng hành chính</option>
+                                <option value="male">Phòng đạo tạo</option>
+                            </select>
+                        </div>
+                        <div class="form-item">
+                            <label>Mã số thuế nhân viên</label>
+                            <input type="date" >
+                        </div>
+                        <div class="form-item">
+                            <label>Ngày gia nhập công ti (<span style="color: red">*</span>)</label>
+                            <select name="" id="">
+                                <option value="female">Đang làm việc</option>
+                                <option value="male">Làm remote</option>
+                                <option value="male">Nghỉ việc</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-action">
+            <button>Hủy</button>
+            <button>Lưu</button>
+        </div>
+    </div>
+</body>
+
+</html>
